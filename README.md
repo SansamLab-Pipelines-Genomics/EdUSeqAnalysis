@@ -1,3 +1,14 @@
+![GitHub Release](https://img.shields.io/github/v/release/kevinboyd76/EdUSeqAnalysis)
+![GitHub Release Date](https://img.shields.io/github/release-date/kevinboyd76/EdUSeqAnalysis)
+![GitHub repo size](https://img.shields.io/github/repo-size/kevinboyd76/EdUSeqAnalysis)
+![GitHub last commit](https://img.shields.io/github/last-commit/kevinboyd76/EdUSeqAnalysis)
+![GitHub contributors](https://img.shields.io/github/contributors/kevinboyd76/EdUSeqAnalysis)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/kevinboyd76/EdUSeqAnalysis/total)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/kevinboyd76/EdUSeqAnalysis/latest)
+[![DOI](https://zenodo.org/badge/863697416.svg)](https://doi.org/10.5281/zenodo.23930805)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 # EdUSeqAnalysis
 ![EdU](/images/EdUseq.png)
 + OpenAI. (2024). High-resolution scientific illustration showing double-stranded DNA (dsDNA) with one strand partially unwound. DALL-E. Retrieved from OpenAI.
@@ -11,7 +22,10 @@ The pipeline utilizes a control sample to normalize EdU-DNA counts, producing fi
 # 2) Instructions to Run Pipeline on Slurm Managed HPC
 ## 2A. Clone repository
 ```
-git clone https://github.com/SansamLab/EdUSeqAnalysis.git
+wget https://github.com/kevinboyd76/EdUSeqAnalysis/releases/download/v1.0.0/EdUSeqAnalysis-1.0.0.tar.gz
+tar -xzf EdUSeqAnalysis-1.0.0.tar.gz
+rm EdUSeqAnalysis-1.0.0.tar.gz
+cd EdUSeqAnalysis-1.0.0.tar.gz
 ```
 ## 2B. Load modules
 ```
