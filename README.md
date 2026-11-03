@@ -25,7 +25,7 @@ The pipeline utilizes a control sample to normalize EdU-DNA counts, producing fi
 wget https://github.com/kevinboyd76/EdUSeqAnalysis/releases/download/v1.0.0/EdUSeqAnalysis-1.0.0.tar.gz
 tar -xzf EdUSeqAnalysis-1.0.0.tar.gz
 rm EdUSeqAnalysis-1.0.0.tar.gz
-cd EdUSeqAnalysis-1.0.0.tar.gz
+cd EdUSeqAnalysis-1.0.0
 ```
 ## 2B. Load modules
 ```
